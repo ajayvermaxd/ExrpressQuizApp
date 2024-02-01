@@ -1,28 +1,34 @@
 
-Quiz Application Frontend
+# Quiz Application Full Stack Solution
+
 This repository contains the frontend code for a Quiz Application API with User Management. The application is built using HTML, CSS, and JavaScript to provide a user-friendly interface for students and administrators.
 
-Problem Statement
+## Problem Statement
 The goal is to extend the existing backend API to include user management functionalities. Users, including both students and administrators, should be able to sign up and log in. Administrators should also have the ability to manage quiz questions by adding and removing them.
 
-Getting Started
-Clone this repository to your local machine:
+## Getting Started
+Clone this repository to your local machine: https://github.com/ajayvermaxd/ExrpressQuizApp.git
 
-bash
+## bash
 Copy code
-git clone https://github.com/your-username/quiz-app-frontend.git
-Open the index.html file in your preferred web browser.
+git clone https://github.com/ajayvermaxd/ExrpressQuizApp.git
 
-Features
+Open the index.html file in your preferred web browser. 
+
+Run `npm start`
+
+## Features
 User Authentication
 Student Signup and Login: Students can create an account and log in with their credentials.
 Admin Signup and Login: Administrators have separate signup and login functionalities.
 Quiz Question Management
 Add Question (Admin): Administrators can add new quiz questions.
 Remove Question (Admin): Administrators can remove existing quiz questions.
-Implementation Details
-Mock Data Arrays
-javascript
+## Implementation Details
+
+# Mock Data Arrays
+```javascript
+
 Copy code
 // Mock User Data Array
 const users = [
@@ -32,6 +38,7 @@ const users = [
 ];
 
 // Mock Quiz Question Data Array
+
 const quizQuestions = [
   {
     id: 1,
@@ -47,7 +54,18 @@ const quizQuestions = [
   },
   // Add more quiz questions
 ];
-Testing
+```
+
+## Testing
 Test the complete API using tools like Postman to ensure that all implemented features work correctly. Test scenarios include login, signup, question management, and quiz functionalities.
 
 By completing these tasks, you'll have a fully functional Quiz Application frontend that interacts seamlessly with the backend API, providing a comprehensive user experience for both students and administrators.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For support or queries, reach out to [studajay3@gmail.com](studajay3@gmail.com).
+
