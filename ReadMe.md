@@ -52,7 +52,6 @@ const quizQuestions = [
     options: ['Mars', 'Venus', 'Jupiter', 'Mercury'],
     correctOption: 0
   },
-  // Add more quiz questions
 ];
 ```
 
